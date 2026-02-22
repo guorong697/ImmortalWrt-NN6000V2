@@ -51,10 +51,10 @@ UPDATE_PACKAGE "aurora-config" "eamonxg/luci-app-aurora-config" "master"
 UPDATE_PACKAGE "kucat" "sirpdboy/luci-theme-kucat" "master"
 UPDATE_PACKAGE "kucat-config" "sirpdboy/luci-app-kucat-config" "master"
 
-UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
-UPDATE_PACKAGE "momo" "nikkinikki-org/OpenWrt-momo" "main"
-UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki" "main"
-UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"
+# UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
+# UPDATE_PACKAGE "momo" "nikkinikki-org/OpenWrt-momo" "main"
+# UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki" "main"
+# UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"
 UPDATE_PACKAGE "passwall" "Openwrt-Passwall/openwrt-passwall" "main" "pkg"
 UPDATE_PACKAGE "passwall2" "Openwrt-Passwall/openwrt-passwall2" "main" "pkg"
 
@@ -74,6 +74,7 @@ UPDATE_PACKAGE "qmodem" "FUjr/QModem" "main"
 UPDATE_PACKAGE "quickfile" "sbwml/luci-app-quickfile" "main"
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-app-wolplus"
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
+UPDATE_PACKAGE "easymesh" "torguardvpn/luci-app-easymesh" "main"
 
 #更新软件包版本
 UPDATE_VERSION() {
